@@ -9,7 +9,15 @@ footer .container {
   padding-top: 0;
 }
 
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__data {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
   padding-top: 76px;
   padding-bottom: 24px;
 }
@@ -20,6 +28,22 @@ footer .container {
 
 .footer__rights {
   color: var(--title__color__alt);
-  margin-top: 66px;
   opacity: 0.5;
+}
+
+.footer__links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__links-item a {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: var(--title__color__alt);
+}
+
+.footer__links-item a:hover {
+  color: var(--title__color);
 }

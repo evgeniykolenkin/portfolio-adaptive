@@ -45,3 +45,7 @@
 .project__item a:hover {
   color: var(--title__color__alt);
 }
+
+.projects__btn {
+  margin: 136px auto 0;
+}

@@ -11,20 +11,34 @@
 }
 
 .skills__data p {
-  max-width: 749px;
+  width: 525px;
   color: var(--title__color);
+  font-size: 22px;
+  line-height: 29px;
 }
 
 .skills__data h2 {
+  width: 440px;
   color: var(--text__color__alt);
   margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 61px;
 }
 
-.skills__item {
-  margin-top: 74px;
+.skill__item-list {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
 }
 
 .skills__item img {
   width: 100%;
   border-radius: 30px;
+}
+
+.skills__data-inner {
+  display: flex;
+  justify-content: space-between;
 }
