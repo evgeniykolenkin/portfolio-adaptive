@@ -1,0 +1,83 @@
+header {
+  position: relative;
+  height: 681px;
+  background: url(../resources/main-photo.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+header .container {
+  padding-top: 29px;
+}
+
+.nav__header,
+.nav__menu {
+  display: flex;
+}
+
+.nav__header {
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 42.4138px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  background-color: var(--title__color__alt);
+  width: 202px;
+  border-radius: 100px;
+  padding-left: 9px;
+}
+
+.logo:hover {
+  background-color: var(--main__color);
+}
+
+.nav__menu {
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.nav__item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.nav__item a {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 28px;
+  color: #ffffff;
+}
+
+.nav__item a:hover {
+  background-color: var(--title__color__alt);
+  border-radius: 100px;
+}
+
+.header__data {
+  position: absolute;
+  bottom: 90px;
+}
+
+header p {
+  width: 430px;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to top, #448d76, transparent);
+}

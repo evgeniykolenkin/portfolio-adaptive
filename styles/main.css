@@ -1,0 +1,105 @@
+@import "header.css";
+@import "projects.css";
+@import "abilities.css";
+@import "skills.css";
+@import "contacts.css";
+@import "footer.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "IBM Plex Mono", monospace;
+  background: #f5f5f5;
+}
+
+/* ========ЦВЕТА========= */
+
+:root {
+  --main__color: #448d76;
+  --title__color: #093426;
+  --title__color__alt: #fd4d0c;
+  --text__color: #f7ddd4;
+  --text__color__alt: #14b884;
+}
+
+/* ========ОБЩИЕ СВОЙСТВА=======  */
+
+h1,
+h2,
+h3,
+p {
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  width: 919px;
+  margin-top: 29px;
+  font-size: 80px;
+  line-height: 70px;
+  color: var(--title__color__alt);
+}
+
+h2 {
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 72px;
+  color: var(--title__color);
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 46px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--text__color);
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* ========MAIN=======  */
+
+main {
+  background-color: var(--main__color);
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1150px;
+  margin: 0 auto;
+  /* background-color: var(--text__color); */
+  padding: 150px 125px 0;
+}
+
+/* ========КНОПКА=======  */
+
+button {
+  display: block;
+  width: 582px;
+  height: 153px;
+  margin: 136px auto 0;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  background-color: var(--title__color__alt);
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--text__color);
+  color: var(--title__color__alt);
+}

@@ -1,0 +1,21 @@
+.abilities h2 {
+  margin-bottom: 48px;
+}
+
+.abilities__item {
+  margin-top: 60px;
+}
+
+.abilities__item:nth-child(2) {
+  margin-top: 0;
+}
+
+.abilities__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 44px;
+  background-color: var(--title__color__alt);
+  border-radius: 10px;
+}

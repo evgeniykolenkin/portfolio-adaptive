@@ -1,0 +1,47 @@
+.project__item {
+  position: relative;
+  height: 550px;
+  border-radius: 30px;
+}
+
+.metrica {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 80%
+    ),
+    url(../resources/project-1.png);
+}
+
+.nothing__ears {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 80%
+    ),
+    url(../resources/project-2.png);
+}
+
+.portfolio {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 80%
+    ),
+    url(../resources/project-3.png);
+}
+
+.project__item a {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.03em;
+  color: var(--text__color);
+}
+
+.project__item a:hover {
+  color: var(--title__color__alt);
+}

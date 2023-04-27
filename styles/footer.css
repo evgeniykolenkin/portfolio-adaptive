@@ -1,0 +1,25 @@
+footer {
+  margin: -25px auto;
+  background: var(--text__color);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+footer .container {
+  padding-top: 0;
+}
+
+.footer__data {
+  padding-top: 76px;
+  padding-bottom: 24px;
+}
+
+.footer__title {
+  color: var(--title__color__alt);
+}
+
+.footer__rights {
+  color: var(--title__color__alt);
+  margin-top: 66px;
+  opacity: 0.5;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Женя Коленкин - frontend developer</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- ШАПКА -->
+    <header>
+      <div class="container">
+        <nav class="nav__header">
+          <a href="#" class="logo">KOLENKIN</a>
+          <ul class="nav__menu">
+            <li class="nav__item"><a href="#projects">проекты</a></li>
+            <li class="nav__item"><a href="#abilities">компетенции</a></li>
+            <li class="nav__item"><a href="#skills">УСЛУГИ</a></li>
+            <li class="nav__item"><a href="#contacts">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+        <div class="header__data">
+          <p>
+            Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+            повышают престиж компании и позволяют выделиться на фоне конкурентов
+          </p>
+          <h1>Привет, я Женя — фронтенд разработчик и дизайнер сайтов</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ -->
+    <main>
+      <!-- ПРОЕКТЫ С КНОПКОЙ-->
+      <section class="projects container" id="projects">
+        <h2>Самые свежие проекты</h2>
+        <!-- МЕТРИКА  -->
+        <div class="project__item metrica">
+          <a
+            href="https://evgeniykolenkin.github.io/module-one-part-3/"
+            target="_blank"
+            >Метрика <br />дизайн,верстка, настройка
+          </a>
+        </div>
+        <!-- NOTHING EARS  -->
+        <div class="project__item nothing__ears">
+          <a
+            href="https://evgeniykolenkin.github.io/module-one-extra/"
+            target="_blank"
+            >Nothin Ear <br />разработка интерфейса</a
+          >
+          <!-- ПОРТФОЛИО -->
+        </div>
+        <div class="project__item portfolio">
+          <a
+            href="https://evgeniykolenkin.github.io/module-one-portfolio/"
+            target="_blank"
+            >Моё портфолио <br />информация будет дополняться</a
+          >
+        </div>
+        <button>Смотреть все проекты</button>
+      </section>
+
+      <!-- КОМПЕТЕНЦИИ  -->
+      <section class="abilities container" id="abilities">
+        <h2>Мои компетенции</h2>
+        <!-- HTML CSS  -->
+        <div class="abilities__item">
+          <div class="abilities__img">
+            <img src="resources/abilities-1.png" alt="" />
+          </div>
+          <h3>HTML и CSS</h3>
+          <p>
+            это основа фронтенд разработки. Умение создавать и правильно
+            структурировать HTML-документы, а также применять стили к этим
+            документам на CSS, является обязательным навыком для каждого
+            фронтенд разработчика.
+          </p>
+        </div>
+        <!-- JAVA SCRIPT  -->
+        <div class="abilities__item">
+          <div class="abilities__img">
+            <img src="resources/abilities-2.png" alt="" />
+          </div>
+          <h3>JavaScript</h3>
+          <p>
+            это язык программирования, который используется для создания
+            динамического и интерактивного пользовательского интерфейса. Хороший
+            фронтенд разработчик должен быть знаком с основами JavaScript,
+            включая работу с DOM-деревом, асинхронными запросами и манипуляцией
+            данными на стороне клиента.
+          </p>
+        </div>
+        <!-- FRAMEWORK  -->
+        <div class="abilities__item">
+          <div class="abilities__img">
+            <img src="resources/abilities-3.png" alt="" />
+          </div>
+          <h3>Работа с библиотеками и фреймворками</h3>
+          <p>
+            фронтенд разработчики должны быть знакомы с различными библиотеками
+            и фреймворками, такими как React, Angular, Vue и другими. Умение
+            использовать готовые решения, адаптировать их под нужды проекта и
+            расширять их функциональность, является очень важным навыком.
+          </p>
+        </div>
+        <!-- ADAPTIVE -->
+        <div class="abilities__item">
+          <div class="abilities__img">
+            <img src="resources/abilities-4.png" alt="" />
+          </div>
+          <h3>Разработка для мобильных устройств и адаптивная верстка</h3>
+          <p>
+            формирование структуры документа на базе HTML-разметки,
+            предусматривающей автоматическое изменение страницы в зависимости от
+            размера экрана пользователя. Простыми словами это макет страницы,
+            автоматически подстраивающийся под размер экрана пользователя.
+          </p>
+        </div>
+      </section>
+
+      <!-- CПЕКТР ЗАДАЧ  -->
+      <section class="skills container" id="skills">
+        <h3>Помогаю реализовать широкий спектр задач</h3>
+        <div class="skills__item">
+          <img src="resources/skills-1.png" alt="" />
+          <div class="skills__data">
+            <h2>Разработка сайта под ключ</h2>
+            <p>
+              Это создание дизайн веб-сайтов, созданный для удобства
+              пользователя и решения бизнес-задач Сайты должны быть понятными и
+              удобными, ведь чем понятнее сайт, тем быстрее пользователь
+              совершит целевое действие
+            </p>
+          </div>
+        </div>
+        <div class="skills__item">
+          <img src="resources/skills-2.png" alt="" />
+          <div class="skills__data">
+            <h2>Верстка сайтов</h2>
+            <p>
+              Это процесс создания HTML-документов и применения к ним стилей на
+              CSS. Фронтенд разработчик может помочь создать привлекательный и
+              удобный интерфейс для вашего сайта
+            </p>
+          </div>
+        </div>
+        <div class="skills__item">
+          <img src="resources/skills-3.png" alt="" />
+          <div class="skills__data">
+            <h2>Разработка мобильного интерфейса</h2>
+            <p>
+              Это процесс создания интерактивных элементов на странице с помощью
+              JavaScript. Фронтенд разработчик может помочь создать динамический
+              и удобный пользовательский интерфейс для вашего сайта или
+              приложения.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- КОНТАКТЫ -->
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <div class="contacts__data">
+            <p>для связи:</p>
+            <div class="contacts__link">
+              <a href="https://vk.com/immaimmorty" target="_blank"
+                ><i class="ri-contacts-fill"></i>vkontakte</a
+              >
+              <a
+                href="https://www.instagram.com/kolenochkin0731"
+                target="_blank"
+                ><i class="ri-instagram-fill"></i>instagram</a
+              >
+              <a href="https://t.me/immorty731" target="_blank"
+                ><i class="ri-telegram-fill"></i>telegram</a
+              >
+              <a href="mailto:immaim@yandex.ru" target="_blank"
+                ><i class="ri-mail-fill"></i>mail</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ПОДВАЛ -->
+    <footer>
+      <div class="container">
+        <div class="footer__data">
+          <p class="footer__title">
+            Портфолио фронтенд-разработчика Жени Коленкина
+          </p>
+          <p class="footer__rights">Все права защищены. 2023</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
