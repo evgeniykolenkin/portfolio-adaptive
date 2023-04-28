@@ -37,8 +37,67 @@
 .skills__data h2 {
   width: 440px;
   color: var(--text__color__alt);
-  margin-bottom: 15px;
   font-weight: 400;
   font-size: 55px;
   line-height: 61px;
+}
+
+@media (max-width: 1199px) {
+  .skills h3 {
+    width: 326px;
+  }
+
+  .skills__item-list {
+    margin-top: 60px;
+    gap: 32px;
+  }
+
+  .skills__data {
+    box-sizing: border-box;
+    padding: 32px 51px 55px 47px;
+  }
+
+  .skills__data p {
+    width: 425px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .skills__data h2 {
+    width: 380px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .skills h3 {
+    width: 326px;
+  }
+
+  .skills__item-list {
+    gap: 60px;
+  }
+
+  .skills__data-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .skills__data {
+    padding: 30px 23px 67px 21px;
+  }
+
+  .skills__data p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .skills__data h2 {
+    width: 294px;
+    font-size: 35px;
+    line-height: 39px;
+  }
 }
