@@ -134,11 +134,11 @@
   }
 
   .burger__btn-open .burger__btn-inner .burger__btn-top {
-    transform: rotate(45deg) translateY(11px) translateX(5px);
+    transform: rotate(45deg) translateY(11px) translateX(7px);
     transition: all 0.5s ease-in-out;
   }
   .burger__btn-open .burger__btn-inner .burger__btn-bottom {
-    transform: rotate(-45deg) translateY(-12px) translateX(7px);
+    transform: rotate(-45deg) translateY(-11px) translateX(7px);
     width: 100%;
     transition: all 0.5s ease-in-out;
   }
