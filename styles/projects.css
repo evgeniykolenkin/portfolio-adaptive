@@ -1,4 +1,4 @@
-.project__item {
+.projects__item {
   position: relative;
   height: 550px;
   border-radius: 30px;
@@ -31,7 +31,7 @@
     url(../resources/project-3.png);
 }
 
-.project__item a {
+.projects__item a {
   position: absolute;
   left: 50px;
   bottom: 50px;
@@ -42,10 +42,14 @@
   color: var(--text__color);
 }
 
-.project__item a:hover {
+.projects__item a:hover {
   color: var(--title__color__alt);
 }
 
-.projects__btn {
+.projects-btn {
+  width: 582px;
+  padding: 56px 85px 58px 86px;
+  font-size: 30px;
+  line-height: 39px;
   margin: 136px auto 0;
 }

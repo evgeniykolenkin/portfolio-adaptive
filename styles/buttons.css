@@ -1,0 +1,35 @@
+.btn {
+  box-sizing: border-box;
+  display: block;
+  font-weight: 400;
+  font-family: inherit;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  background-color: var(--title__color__alt);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--text__color);
+  color: var(--title__color__alt);
+}
+
+.btn-inverted {
+  box-sizing: border-box;
+  display: block;
+  font-weight: 400;
+  font-family: inherit;
+  letter-spacing: -0.03em;
+  color: #000000;
+  background-color: var(--text__color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-inverted:hover {
+  background-color: var(--main__color);
+  color: #ffffff;
+}

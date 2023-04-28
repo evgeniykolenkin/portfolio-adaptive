@@ -4,13 +4,13 @@
 @import "skills.css";
 @import "contacts.css";
 @import "footer.css";
+@import "buttons.css";
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  /* box-sizing: border-box; */
   font-family: "IBM Plex Mono", monospace;
   background: #f5f5f5;
 }
@@ -79,30 +79,7 @@ main {
 }
 
 .container {
-  /* box-sizing: border-box; */
   max-width: 1150px;
   margin: 0 auto;
   padding: 150px 125px 0;
-}
-
-/* ========КНОПКА=======  */
-
-button {
-  display: block;
-  width: 582px;
-  padding: 56px 85px 58px 86px;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 39px;
-  letter-spacing: -0.03em;
-  background-color: var(--title__color__alt);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: var(--text__color);
-  color: var(--title__color__alt);
 }

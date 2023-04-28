@@ -12,7 +12,7 @@ header .container {
 }
 
 .nav__header,
-.nav__menu {
+.nav__header-menu {
   display: flex;
 }
 
@@ -38,7 +38,7 @@ header .container {
   background-color: var(--main__color);
 }
 
-.nav__menu {
+.nav__header-menu {
   justify-content: space-between;
   gap: 30px;
 }
@@ -69,7 +69,7 @@ header .container {
   bottom: 90px;
 }
 
-header p {
+.header__data p {
   width: 430px;
 }
 

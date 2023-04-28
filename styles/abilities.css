@@ -10,12 +10,7 @@
 }
 
 .abilities__item {
-  /* margin-top: 60px; */
   width: calc(50% - 23px);
-}
-
-.abilities__item:nth-child(2) {
-  margin-top: 0;
 }
 
 .abilities__img {
