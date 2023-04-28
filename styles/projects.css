@@ -60,7 +60,7 @@
   }
 
   .projects-btn {
-    width: 460px;
+    width: 100%;
     padding: 45px 67px 47px 68px;
     font-size: 24px;
     line-height: 29px;
@@ -75,9 +75,8 @@
     line-height: 36px;
   }
   .projects-btn {
-    width: 350px;
     padding: 28px 51px 29px 52px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 23px;
     margin: 60px auto 0;
   }

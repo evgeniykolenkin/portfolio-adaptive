@@ -72,7 +72,7 @@
 
 @media (max-width: 767px) {
   .skills h3 {
-    width: 326px;
+    max-width: 100%;
   }
 
   .skills__item-list {
@@ -96,7 +96,7 @@
   }
 
   .skills__data h2 {
-    width: 294px;
+    width: 100%;
     font-size: 35px;
     line-height: 39px;
   }

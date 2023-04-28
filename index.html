@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+    />
     <title>Женя Коленкин - frontend developer</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,10 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/reset.css" />
@@ -30,6 +31,13 @@
             <li class="nav__item"><a href="#skills">УСЛУГИ</a></li>
             <li class="nav__item"><a href="#contacts">КОНТАКТЫ</a></li>
           </ul>
+          <button class="js-burger__btn burger__btn">
+            <div class="burger__btn-inner">
+              <span class="burger__btn-top"></span>
+              <span class="burger__btn-mid"></span>
+              <span class="burger__btn-bottom"></span>
+            </div>
+          </button>
         </nav>
         <div class="header__data">
           <p>
@@ -40,6 +48,51 @@
         </div>
       </div>
     </header>
+
+    <!-- BURGER MENU -->
+    <div class="js-burger burger">
+      <div class="js-burger__content burger__content">
+        <div>
+          <a href="#" class="burger__logo">KOLENKIN</a>
+        </div>
+        <nav class="js-burger__nav burger__nav">
+          <ul>
+            <li class="burger__link">
+              <a href="#projects">проекты</a>
+            </li>
+            <li class="burger__link">
+              <a href="#abilities">компетенции</a>
+            </li>
+            <li class="burger__link">
+              <a href="#skills">УСЛУГИ</a>
+            </li>
+            <li class="burger__link">
+              <a href="#contacts">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger__contacts">
+          <p>для связи:</p>
+          <div class="burger__contacts-data">
+            <ul>
+              <li class="burger__link-contacts">
+                <a href="https://t.me/kolenochkin" target="_blank">telegram</a>
+              </li>
+              <li class="burger__link-contacts">
+                <a href="mailto:immaim@yandex.ru" target="_blank">mail</a>
+              </li>
+              <li class="burger__link-contacts">
+                <a
+                  href="https://www.instagram.com/kolenochkin0731/"
+                  target="_blank"
+                  >instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- ОСНОВНОЙ КОНТЕНТ -->
     <main>
@@ -216,13 +269,24 @@
       <div class="container">
         <div class="footer__inner">
           <div class="footer__data">
-            <p class="footer__title">
+            <a href="#" class="footer__title">
               Портфолио фронтенд-разработчика Жени Коленкина
-            </p>
+            </a>
             <ul class="footer__links">
-              <li class="footer__links-item"><a href="#">mail</a></li>
-              <li class="footer__links-item"><a href="#">telegram</a></li>
-              <li class="footer__links-item"><a href="#">instagram</a></li>
+              <li class="footer__links-item">
+                <a href="mailto:immaim@yandex.ru" target="_blank">mail</a>
+              </li>
+              <li class="footer__links-item">
+                <a href="https://t.me/kolenochkin" target="_blank">telegram</a>
+              </li>
+
+              <li class="footer__links-item">
+                <a
+                  href="https://www.instagram.com/kolenochkin0731/"
+                  target="_blank"
+                  >instagram</a
+                >
+              </li>
             </ul>
           </div>
           <div class="footer__data-rights">
@@ -232,5 +296,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- SCRIPTS -->
+    <script src="scripts/burger.js"></script>
   </body>
 </html>
