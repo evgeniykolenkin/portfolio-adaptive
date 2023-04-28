@@ -134,7 +134,7 @@
   }
 
   .burger__btn-open .burger__btn-inner .burger__btn-top {
-    transform: rotate(45deg) translateY(11px) translateX(7px);
+    transform: rotate(45deg) translateY(11px) translateX(8px);
     transition: all 0.5s ease-in-out;
   }
   .burger__btn-open .burger__btn-inner .burger__btn-bottom {
