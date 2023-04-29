@@ -31,6 +31,25 @@
     url(../resources/project-3.png);
 }
 
+.projects__title {
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--title__color__alt);
+  border-radius: 100px;
+}
+
+.projects__title p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--text__color);
+}
+
 .projects__item a {
   position: absolute;
   left: 50px;
@@ -79,5 +98,16 @@
     font-size: 16px;
     line-height: 23px;
     margin: 60px auto 0;
+  }
+
+  .projects__title {
+    top: 30px;
+    left: 35px;
+    padding: 6px 19px;
+  }
+
+  .projects__title p {
+    font-size: 13px;
+    line-height: 18px;
   }
 }
